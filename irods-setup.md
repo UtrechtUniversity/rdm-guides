@@ -42,8 +42,9 @@ echo "30" | sudo tee /proc/sys/net/ipv4/tcp_keepalive_intvl
 echo "net.ipv4.tcp_keepalive_time=120" | sudo tee -a /etc/sysctl.d/99-sysctl.conf
 echo "net.ipv4.tcp_keepalive_intvl=30" | sudo tee -a /etc/sysctl.d/99-sysctl.conf
 ```
+The renci-irods.list that is created should contain: ```deb [arch=amd64] https://packages.irods.org/apt bionic main```
 
-4. Create the iRODS directory and configuration file
+4. Create the iRODS directory and configuration file, within your home directory:
 
    - ```mkdir ~/.irods```
    - ```nano ~/.irods/irods_environment.json``` 
@@ -52,3 +53,6 @@ echo "net.ipv4.tcp_keepalive_intvl=30" | sudo tee -a /etc/sysctl.d/99-sysctl.con
 
     - See the following for all information on each environment: https://www.uu.nl/en/research/yoda/guide-to-yoda/i-am-using-yoda/using-icommands-for-large-datasets
 
+6. Log into iRODS
+
+    - Type in ```iinit``` to log into Yoda via iRODS
