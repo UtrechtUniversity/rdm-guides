@@ -8,11 +8,12 @@
     Instructions are available here as well: https://learn.microsoft.com/en-us/windows/wsl/install
 
 OR 
-    - start PowerShell as administrator
-    - ```wsl –install``` (this will install Ubuntu 20.something though)
-    - Open the Microsoft Store (search for "store" from the start menu)
-    - Search the store for "Ubuntu 18.04"
-    - Install Ubuntu 18.04 LTS (it is not necessary to sign in to the store)
+
+   - start PowerShell as administrator
+   - ```wsl –install``` (this will install Ubuntu 20.something though)
+   - Open the Microsoft Store (search for "store" from the start menu)
+   - Search the store for "Ubuntu 18.04"
+   - Install Ubuntu 18.04 LTS (it is not necessary to sign in to the store)
 
 2. Quick setup of Ubuntu environment
 
