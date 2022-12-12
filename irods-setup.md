@@ -45,8 +45,8 @@ echo "net.ipv4.tcp_keepalive_intvl=30" | sudo tee -a /etc/sysctl.d/99-sysctl.con
 
 4. Create the iRODS directory and configuration file
 
-   - mkdir ~/.irods
-   - nano ~/.irods/irods_environment.json 
+   - ```mkdir ~/.irods```
+   - ```nano ~/.irods/irods_environment.json``` 
 
 5. Update the iRODS configuration file to match the Yoda research environment you want to work with
 
